@@ -26,3 +26,4 @@ prompt fade
 # Aliases
 alias ls='ls --color=auto'
 alias la='ls -lathr'
+alias fd='fdfind'
