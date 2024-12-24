@@ -27,3 +27,4 @@ prompt fade
 alias ls='ls --color=auto'
 alias la='ls -lathr'
 alias fd='fdfind'
+alias bat='batcat'
