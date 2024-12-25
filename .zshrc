@@ -2,20 +2,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 # Prompt
-PURE_GIT_PULL=0
-
-autoload -Uz promptinit
-zstyle :prompt:pure:git:host show yes
-zstyle :prompt:pure:git:path show yes
-zstyle :prompt:pure:git:branch show yes
-zstyle :prompt:pure:git:dirty show yes
-zstyle :prompt:pure:git:action show yes
-zstyle :prompt:pure:git:arrow show yes
-zstyle :prompt:pure:git:stash show yes
-zstyle :prompt:pure:git:execution_time show yes
-
-promptinit
-prompt pure
+ZSH_THEME=agnoster
 
 #Plugins
 plugins=(
